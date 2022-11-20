@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="20dp"
+        android:id="@+id/tv_idloaisach"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Tên loại sách"
+        android:textSize="20dp"
+        android:id="@+id/tv_tenloaisach"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/suadoi"
+        android:id="@+id/img_sualoaisach"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/delete"
+        android:id="@+id/img_xoaloaisach"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
